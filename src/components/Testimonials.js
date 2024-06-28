@@ -4,16 +4,16 @@ import './Testimonials.css';
 
 const testimonials = [
   {
-    quote: "This is the best developer I have ever worked with!",
-    author: "John Doe",
+    quote: "This is the best team I have ever worked with!",
+    author: "Ramya sree",
   },
   {
     quote: "Amazing work, delivered on time and beyond expectations.",
-    author: "Jane Smith",
+    author: "Dhruthi",
   },
   {
-    quote: "Very professional and skilled in React and JavaScript.",
-    author: "Mike Johnson",
+    quote: "Very professional and skilled in all tech.",
+    author: "Surya",
   },
 ];
 
