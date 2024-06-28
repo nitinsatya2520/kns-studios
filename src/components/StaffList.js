@@ -17,10 +17,11 @@ const StaffList = () => {
                         onError={(e) => { e.target.onerror = null; e.target.src = '/path_to_placeholder_image.jpg' }} // Handling image load errors
                         className="staff-image"
                     />
-                    </a>
+                    
                     <h3>{staff.name}</h3>
                     <h4>{staff.position}</h4>
                     <p>{staff.bio}</p>
+                   </a>         
                 </div>
             ))}
         </div>
