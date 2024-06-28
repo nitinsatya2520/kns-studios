@@ -20,8 +20,9 @@ const Hero = () => {
             K N S STUDIOS
           </h2>
         </div>
-       
+        <a href="https://www.youtube.com/@kns_studios">
         <img src={nitin} alt="Profile" className="profile-image" />
+            </a>
         <p className="text-center">
           WE SHOW YOU YOUR DREAMS...
         </p>
