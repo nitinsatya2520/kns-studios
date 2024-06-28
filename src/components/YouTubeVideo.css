@@ -1,0 +1,48 @@
+/* YouTubeVideo.css */
+.youtube-video-container {
+    position: relative;
+    padding-bottom: 500px; /* 16:9 aspect ratio (for responsive video) */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 20px; /* Example margin */
+}
+
+.youtube-video-container .youtube-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.youtube-video-container .video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.youtube-video-container .video-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.youtube-video-container .video-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.youtube-video-container .video-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.youtube-video-container .video-info ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.youtube-video-container .video-info li {
+    margin-bottom: 5px;
+}

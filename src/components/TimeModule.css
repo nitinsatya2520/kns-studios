@@ -1,0 +1,35 @@
+/* TimeModule.css */
+.time-module {
+    background-color: rgba(0, 0, 0, 0.658); /* Dark transparent background for contrast */
+    padding: 30px 30px;
+    position: fixed;
+    top: 10px;
+    right: 0px; /* Position it on the right side */
+    width: fit-content;
+    padding-top: 110px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .time-module:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .time-module p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .time-module {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  }
+  

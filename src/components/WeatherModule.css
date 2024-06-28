@@ -1,0 +1,50 @@
+/* WeatherModule.css */
+.weather-module {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent background for contrast */
+    padding: 40px 20px;
+    position: fixed;
+    bottom: 25px;
+    right: 10px; /* Position it on the right side */
+    width: fit-content;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    animation: fadeIn 1.2s ease-in;
+  }
+  
+  .weather-module:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .weather-module h3 {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .weather-module p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 5px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .weather-module {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  
+    .weather-module h3 {
+      font-size: 1.2rem;
+    }
+  
+    .weather-module p {
+      font-size: 1rem;
+    }
+  }
+  

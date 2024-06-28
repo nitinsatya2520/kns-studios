@@ -1,0 +1,10 @@
+/* Home.css */
+.home-container {
+    padding: 80px 20px 20px; /* Adjust padding to account for fixed navbar */
+}
+
+.home-container h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
