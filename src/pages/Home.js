@@ -18,8 +18,12 @@ function Home() {
             <Us />
            
             <h2>Featured Projects</h2>
-            <YouTubeVideo videoId={"rQROvtEorsY"} />
-            <YouTubeVideo videoId={'3OE7SPE1Qno'} />
+            <div className="video-grid">
+        
+        <YouTubeVideo videoId="3OE7SPE1Qno" />
+        <YouTubeVideo videoId="rQROvtEorsY" />
+        
+      </div>
             
             <AA />
             <h2>Our Team</h2>
