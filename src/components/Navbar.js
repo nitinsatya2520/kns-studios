@@ -12,7 +12,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+    <a href="https://www.youtube.com/@kns_studios">
       <img src={nitin} alt="Profile" className="profile-ima" />
+    </a>
       <div className="navbar-logo">K N S STUDIOS</div>
       <ul className={`navbar-links ${menuActive ? 'active' : ''}`}>
         <li>

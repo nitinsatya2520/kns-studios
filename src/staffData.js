@@ -8,7 +8,10 @@ const staffData = [
         position: 'Director',
         image: 'rishi.png',
         bio: 'Rishi is a tech visionary and creactive Man...',
+<<<<<<< HEAD
         
+=======
+>>>>>>> 8f079f8114363f885698332b19c46e1041d74634
         link:'https://www.instagram.com/rshiiz/',
     },
     {
@@ -18,6 +21,10 @@ const staffData = [
         image: 'nitin.jpg', // Make sure the image is available in the public/assets/images folder
         bio: 'Nitin is the young man of talent in the industry...',
         link: 'https://www.instagram.com/nitin_satya_k/',
+<<<<<<< HEAD
+=======
+       
+>>>>>>> 8f079f8114363f885698332b19c46e1041d74634
     },
     {
         id: 3,

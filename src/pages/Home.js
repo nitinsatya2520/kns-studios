@@ -15,21 +15,29 @@ function Home() {
         <div className='app-container'>
         <div className="home-container">
             <Navbar />
-            <TimeModule />
+            
             <Us />
            
             <h2>Featured Projects</h2>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8f079f8114363f885698332b19c46e1041d74634
             <div className="video-grid">
         
         <YouTubeVideo videoId="3OE7SPE1Qno" />
         <YouTubeVideo videoId="rQROvtEorsY" />
         
       </div>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 8f079f8114363f885698332b19c46e1041d74634
             <AA />
             <h2>Our Team</h2>
             <StaffList/>
             <Testimonials/>
+            <TimeModule />
             <WeatherModule apiKey="03f7fb2a6ffa9af4e20414dc73edb7a3" city="Delhi" />
         </div>
         </div>

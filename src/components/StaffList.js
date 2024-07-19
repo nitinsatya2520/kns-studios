@@ -5,6 +5,7 @@ import Navbar from './Navbar'; // Adjust the import path based on your project s
 
 const StaffList = () => {
     return (
+<<<<<<< HEAD
         <div className='app-container'>
             <Navbar />
             <div className="staff-list">
@@ -24,6 +25,26 @@ const StaffList = () => {
                     </div>
                 ))}
             </div>
+=======
+        <div className="staff-list">
+            
+            {staffData.map(staff => (
+                <div key={staff.id} className="staff-card">
+                    <a href={staff.link}>
+                    <img
+                        src={require(`../assets/images/${staff.image}`)} // Dynamic image import
+                        alt={staff.name}
+                        onError={(e) => { e.target.onerror = null; e.target.src = '/path_to_placeholder_image.jpg' }} // Handling image load errors
+                        className="staff-image"
+                    />
+                    </a> 
+                    <h3>{staff.name}</h3>
+                    <h4>{staff.position}</h4>
+                    <p>{staff.bio}</p>
+                           
+                </div>
+            ))}
+>>>>>>> 8f079f8114363f885698332b19c46e1041d74634
         </div>
     );
 };
