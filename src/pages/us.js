@@ -2,7 +2,7 @@ import nitin from '../assets/images/KNS STUDIOS.png';
 import React from 'react';
 import './us.css';
 
-const Hero = () => {
+const us = () => {
   return (
     <section
       id="hero"
@@ -31,4 +31,4 @@ const Hero = () => {
   );
 }
 
-export default Hero;
+export default us;

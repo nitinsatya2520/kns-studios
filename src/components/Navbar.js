@@ -22,6 +22,9 @@ const Navbar = () => {
           <Link to="/about" onClick={toggleMenu}>About</Link>
         </li>
         <li>
+          <Link to="/us" onClick={toggleMenu}>Gallery</Link>
+        </li>
+        <li>
           <Link to="/properties" onClick={toggleMenu}>Projects</Link>
         </li>
         <li>

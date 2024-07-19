@@ -9,25 +9,24 @@ import Footer from './components/Footer';
 import './App.css';
 import StaffList from './components/StaffList';
 // import ChatBot from "react-chatbotify";
-
+import Us from './pages/Dream';
 
 function App() {
     
     return (
         <Router>
-            <div className="app-container">
-                <Navbar />
+            <div >
+               
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/properties" element={<Properties />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/us" element={<Us/>} />
                     <Route path="/staff" element={<StaffList />} /> {/* Add Route for StaffList */}
                 </Routes>
                 <Footer />
-                <div className="Ap">
-            
-            </div>
+                
             </div>
         </Router>
     );
