@@ -21,6 +21,7 @@ function Home() {
             <h2>Featured Projects</h2>
             <div className="video-grid">
         
+        <YouTubeVideo videoId="Oo29r0_w8_c" />
         <YouTubeVideo videoId="3OE7SPE1Qno" />
         <YouTubeVideo videoId="rQROvtEorsY" />
         
