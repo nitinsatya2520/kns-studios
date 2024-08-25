@@ -8,8 +8,20 @@ const testimonials = [
     author: "Ramya sree",
   },
   {
+    quote: "These guys just made me feel, what is impossible",
+    author: "Jhanavi",
+  },
+  {
     quote: "Amazing work, delivered on time and beyond expectations.",
     author: "Dhruthi",
+  },
+  {
+    quote: "What i can say about me.",
+    author: "Satya",
+  },
+  {
+    quote: "For every Decade there will be a benchmark setter and those are these.",
+    author: "Venila",
   },
   {
     quote: "Very professional and skilled in all tech.",
