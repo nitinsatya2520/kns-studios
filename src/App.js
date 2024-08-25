@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import './App.css';
 import StaffList from './components/StaffList';
-// import ChatBot from "react-chatbotify";
+import ChatBot from "react-chatbotify";
 import Us from './pages/Dream';
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
                     <Route path="/us" element={<Us/>} />
                     <Route path="/staff" element={<StaffList />} /> {/* Add Route for StaffList */}
                 </Routes>
+                <ChatBot/>
                 <Footer />
                 
             </div>
