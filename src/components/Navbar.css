@@ -1,75 +1,18 @@
 .navbar {
+  background-color: #020070; /* Dark blue background */
+  color: white;
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  align-items: center;     /* Center the logo vertically */
+  height: 80px;            /* Adjust the height as needed */
+  width: 100%;             /* Make the navbar span the full width */
   position: fixed;
   top: 0;
-  width: 100%;
-  background-color: #020070; /* Dark red background */
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 900;           /* Ensure the navbar stays on top of other elements */
 }
 
 .navbar-logo {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.navbar-links li {
-  cursor: pointer;
-}
-
-.navbar-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s;
-}
-
-.navbar-links a:hover {
-  color: #fd0000; /* Bright red color */
-}
-
-/* Hamburger menu */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 0.3rem;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .navbar-links {
-    flex-direction: column;
-    background-color: #002e3b; /* Dark red background */
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 50%;
-    display: none;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: flex;
-  }
+  font-size: 1.8rem;        /* Font size for the logo */
+  font-weight: bold;        /* Make the text bold */
+  transform: translateX(50px); /* Move 5px to the left from the center */
 }

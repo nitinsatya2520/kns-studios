@@ -14,12 +14,13 @@ function Home() {
     return (
         <div className='app-container'>
         <div className="home-container">
-            <Navbar />
+            
+            
             
             <Us />
            
             <h2>Featured Projects</h2>
-            <div className="video-grid">
+            <div className="video-gridl">
         
         <YouTubeVideo videoId="Oo29r0_w8_c" />
         <YouTubeVideo videoId="3OE7SPE1Qno" />

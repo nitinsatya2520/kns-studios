@@ -1,0 +1,142 @@
+.bar {
+    position: fixed;
+    left: 0;
+    width: fit-content;
+    height: 100%;
+    background-color: #020070; /* Dark blue background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bar-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.bar-links li {
+    margin-top: 2.5rem;
+    cursor: pointer;
+    color: #111827;
+    border: #d1d5db;
+    padding: 8px 16px;
+    background: #00000059;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+    transition: color 0.3s;
+}
+
+.bar-links a:hover {
+    color: #10b981; /* Emerald color */
+}
+
+.profile-ima {
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-ima:hover {
+    width: 100px;
+    height: 90px;
+    transform: translateY(-5px);
+}
+
+/* Dark Mode Styles */
+.dark-mode .bar {
+    background-color: #111827; /* Darker background for dark mode */
+    color: #d1d5db; /* Light gray text for dark mode */
+}
+
+.dark-mode .bar-links a {
+    color: #d1d5db; /* Light gray text for dark mode links */
+}
+
+.dark-mode .bar-links a:hover {
+    color: #34d399; /* Lighter emerald color for dark mode */
+}
+
+/* Hamburger Menu Styles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode .menu-toggle {
+    color: #d1d5db; /* Light gray color for dark mode */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .bar{
+        background-color: #1e3b8a00;
+        color: #111827;
+
+    }
+
+    .bar-links {
+        flex-direction: column;
+        background-color: #1e3b8a00; /* Dark blue background */
+        position: absolute;
+        top: 60px;
+        border-radius: 25px;
+        right: 0;
+        color: #000000;
+        width: 100%;
+        transform: translateY(-100%);
+        opacity: 0;
+        display: flex;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .bar-links li {
+        margin-top: 2.5rem;
+        cursor: pointer;
+        color: #111827;
+        border: #d1d5db;
+        padding: 8px 16px;
+        background: #20203be8;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    
+
+    .bar-links.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .menu-toggle {
+        color: black;
+        display: block;
+    }
+
+    .dark-mode .bar-links {
+        background-color: #111827; /* Darker background for mobile dark mode */
+    }
+}

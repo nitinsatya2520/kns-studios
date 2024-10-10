@@ -4,7 +4,7 @@ import ntin from '../assets/images/KNS STUDIOS raw.png';
 import Navbar from '../components/Navbar';
 const About = () => {
     return (
-        <div className='app-container'><Navbar/>
+        <div className='app-container'>
         <div className="about-container">
             <h2>About Us</h2>
             <p>K N S Studios

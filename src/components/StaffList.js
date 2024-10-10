@@ -6,7 +6,7 @@ import Navbar from './Navbar'; // Adjust the import path based on your project s
 const StaffList = () => {
     return (
         <div className='app-container'>
-            <Navbar />
+            
             <div className="staff-list">
                 {staffData.map(staff => (
                     <div key={staff.id} className="staff-card">

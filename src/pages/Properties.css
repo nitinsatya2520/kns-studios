@@ -4,6 +4,7 @@
     max-width: 1200px;
     margin: 0 auto;
     animation: fadeIn 1.2s ease-in;
+    padding-left: 150px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -25,7 +26,13 @@
   }
   
   .video-grid {
-    display: grid;
+    display:block;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .video-gridl {
+    display:flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
   }

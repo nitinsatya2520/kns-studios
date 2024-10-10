@@ -10,12 +10,16 @@ import './App.css';
 import StaffList from './components/StaffList';
 import ChatBot from "react-chatbotify";
 import Us from './pages/Dream';
+import Bar from './components/Bar';
 
 function App() {
     
     return (
         <Router>
             <div >
+                <Navbar />
+                <Bar />
+                
                
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -25,7 +29,7 @@ function App() {
                     <Route path="/us" element={<Us/>} />
                     <Route path="/staff" element={<StaffList />} /> {/* Add Route for StaffList */}
                 </Routes>
-                <ChatBot/>
+                
                 <Footer />
                 
             </div>

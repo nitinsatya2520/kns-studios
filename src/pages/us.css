@@ -49,20 +49,7 @@
     transition: transform 0.3s, box-shadow 0.3s;
   }
   
-  .profile-ima {
-    width: 90px;
-    height: 90px;
-    border-radius: 10%;
-    object-fit: cover;
-   
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  .profile-ima:hover {
-    width: 100px;
-    height: 90px;
-    transform: translateY(-5px);
-    
-  }
+  
 
   
 

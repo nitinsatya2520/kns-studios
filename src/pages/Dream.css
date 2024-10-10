@@ -1,6 +1,7 @@
 .bod {
     background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0, 114, 122));
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
   }
   
   #header {

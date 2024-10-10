@@ -41,7 +41,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div><Navbar/>
+    <div>
     <div id="contact">
       <h2>Contact Us</h2>
       <p>Please fill out the form below to get in touch with us.</p>

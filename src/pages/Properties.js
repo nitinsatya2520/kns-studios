@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar';
 
 const Properties = () => {
   return (
-    <div className='app-container'><Navbar/>
+    <div className='app-container'>
     <section className="properties-container">
       <h2>Our Projects</h2>
       <div className="video-grid">
